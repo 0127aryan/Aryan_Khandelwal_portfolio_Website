@@ -1552,8 +1552,200 @@ footer{
     }
 }
 
-  /* Add this media query for large table screens */
+  /* Add this media query for large tablet screens */
 @media (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust layout and styling for mobile screens */
+    .container {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+    
+    .navbar-left, .navbar-right {
+      justify-content: center;
+    }
+    
+    .logo {
+      width: 40px;
+    }
+    
+    .logo-text {
+      font-size: 18px;
+    }
+    
+    .nav-items {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0;
+    }
+    
+    .nav-items div {
+      font-size: 16px;
+    }
+    
+    .hero-section {
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    
+    .hero-section-left {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .user-image {
+      padding: 1rem;
+      margin: 0 auto;
+    }
+    
+    .hero-section-heading {
+      font-size: 24px;
+    }
+    
+    .hero-section-subheading {
+      font-size: 18px;
+    }
+    
+    .hero-section-description {
+      font-size: 16px;
+    }
+    
+    .btn-pink {
+      padding: 0.5rem 1rem;
+      font-size: 14px;
+    }
+    
+    .project-section {
+      padding: 2rem;
+    }
+    
+    .project-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .project-card {
+      width: 100%;
+      height: 250px;
+    }
+    
+    .project-content {
+      padding: 1rem;
+      font-size: 14px;
+    }
+    
+    .project-skills-container {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    
+    .project-skills {
+      width: 25px;
+    }
+    
+    .skills-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .skills-container-left {
+        padding: 10px;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .skills-container-right {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    
+    .skills-fade-text {
+      font-size: 10rem;
+    }
+    
+    .blob-style {
+      top: 40%;
+      left: 40%;
+    }
+    
+    .skills-logo {
+      width: 60px;
+    }
+    
+    .skills-heading {
+      font-size: 30px;
+    }
+    
+    .skills-subheading {
+      font-size: 16px;
+    }
+    
+    .contactus-form-container {
+      padding: 2rem;
+    }
+    
+    .contactus-heading {
+      font-size: 3em;
+    }
+    
+    .contactus-subheading {
+      font-size: 2em;
+      position: relative;
+    }
+    
+    .form {
+      width: 100%;
+      gap: 1rem;
+    }
+    
+    .formfield {
+      height: 30px;
+      font-size: 14px;
+    }
+    
+    .formfield-textarea {
+      height: 100px;
+    }
+    
+    #submit-btn {
+      font-size: 1.2rem;
+    }
+    
+    footer {
+        
+      padding: 2rem;
+      
+    }
+    
+    .footer-wrapper {
+      flex-direction: column;
+      gap: 1rem;
+
+      
+    }
+    
+    .link-wrapper {
+      flex-direction: column;
+      gap: 0.5rem;
+      position: relative;
+    }
+    
+    .icon-wrapper {
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  /* Add this media query for large tablet screens */
+@media (min-width: 768px) and (max-width: 1024px) and(orientation: landscape) {
     /* Adjust layout and styling for mobile screens */
     .container {
       width: 100%;

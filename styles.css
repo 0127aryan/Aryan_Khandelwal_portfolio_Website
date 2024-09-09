@@ -2145,7 +2145,8 @@ footer{
       flex-direction: column;
       gap: 0.5rem;
       position: relative;
-      margin-left: -10px;
+      margin-right: -350px;
+
     }
     
     .icon-wrapper {
@@ -2153,7 +2154,7 @@ footer{
       align-items: center;
       gap: 0.5rem;
       font-size: 1rem;
-      margin-left: -400px;
+      margin-left: -350px;
       margin-top: -30px;
     }
   }

@@ -684,7 +684,7 @@ footer{
 
 
 /* Add this media query for mobile screens */
-@media (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     /* Adjust layout and styling for mobile screens */
     .container {
       width: 100%;
@@ -746,6 +746,7 @@ footer{
     .hero-section-description {
       font-size: 16px;
     }
+
     
     .btn-pink {
       padding: 0.5rem 1rem;
@@ -876,11 +877,11 @@ footer{
   }
 
   /* Add this media query for laptop screens */
-@media (max-width: 991px) {
+@media (min-width: 1224px) {
     
     .container{
         width: 991px;
-        margin: 0 auto;
+        margin: 0;
     }
     
     .navbar{
@@ -1552,11 +1553,10 @@ footer{
 }
 
   /* Add this media query for large table screens */
-@media (min-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     /* Adjust layout and styling for mobile screens */
     .container {
       width: 100%;
-      margin: 0;
       padding: 0;
     }
     
@@ -1601,6 +1601,7 @@ footer{
     
     .user-image {
       padding: 1rem;
+      margin: 0 auto;
     }
     
     .hero-section-heading {

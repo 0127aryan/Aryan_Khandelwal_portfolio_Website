@@ -680,6 +680,9 @@ footer{
     color: orangered;
     text-decoration: none;
 }
+.icon-wrapper i{
+    color: #fff;
+}
 .icon-wrapper{
     display: flex;
     flex-direction: row;

@@ -885,7 +885,7 @@ footer{
   }
 
   /* Add this media query for laptop screens */
-@media (min-width: 1224px) {
+@media (max-width: 1224px) {
     
     .container{
         width: 991px;
@@ -1380,7 +1380,7 @@ footer{
         position: relative;
         display: flex;
         padding: 5rem;
-        margin: 10rem;
+        margin: 100rem;
         gap: 30px;
     }
     
@@ -1557,6 +1557,7 @@ footer{
         position: absolute;
         align-items: end;
         gap: 1rem;
+        color: #fff;
     }
 }
 
@@ -2027,6 +2028,7 @@ footer{
     
     .project-container {
       flex-direction: column;
+      margin: auto;
       gap: 2rem;
     }
     
@@ -2052,6 +2054,7 @@ footer{
     .skills-container {
       flex-direction: column;
       gap: 2rem;
+      margin-left:100px ;
     }
     
     .skills-container-left {
@@ -2059,11 +2062,13 @@ footer{
       width: 100%;
       align-items: center;
       text-align: center;
+      
     }
     
     .skills-container-right {
       width: 100%;
       flex-wrap: wrap;
+      margin-left: -100px;
     }
     
     .skills-fade-text {
@@ -2093,11 +2098,13 @@ footer{
     
     .contactus-heading {
       font-size: 3em;
+      margin-left: -10px;
     }
     
     .contactus-subheading {
       font-size: 2em;
       position: relative;
+      margin-left: -10px;
     }
     
     .form {
@@ -2115,7 +2122,7 @@ footer{
     }
     
     #submit-btn {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     
     footer {
@@ -2135,12 +2142,16 @@ footer{
       flex-direction: column;
       gap: 0.5rem;
       position: relative;
+      margin-left: -10px;
     }
     
     .icon-wrapper {
       flex-direction: row;
       align-items: center;
       gap: 0.5rem;
+      font-size: 1rem;
+      margin-left: -400px;
+      margin-top: -30px;
     }
   }
 

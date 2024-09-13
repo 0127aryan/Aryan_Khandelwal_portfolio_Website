@@ -298,7 +298,7 @@ a{
     flex-direction: column;
     gap: 120px;
  }
- .project-card{
+ .project-card {
     width: 90%;
     height: 550px;
     background-image: url(./images/Expense-tracker-bg.png);
@@ -318,7 +318,6 @@ a{
     z-index: 0;
     transform: scaleX(1);
  }
-
  .project-card::before{
     content: "";
     position: absolute;
@@ -425,9 +424,9 @@ a{
 }
  
 #project1{
-    background-image: url(./images/project1.png);
+    background-image: url(./images/chat-app.png);
 }
-#project2{
+/* #project2{
     margin-left:120px ;
     background-image: url(./images/project2.png);
 } 
@@ -440,7 +439,7 @@ a{
 }
 #project5{
     background-image: url(./images/project2.png);
-}
+} */
 
 @media (max-width:1300px) {
     .page-header{
